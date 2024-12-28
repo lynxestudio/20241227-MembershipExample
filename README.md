@@ -50,7 +50,7 @@ By default, Forms authentication creates a cookie when the user has logged on, a
 </p>
 <p>
 You can configure Forms authentication by using the Web.config file. The following example specifies that users should be directed to a logon page called logon.aspx, and it has the details of two users. The password has been irreversibly hashed:
-<img src="../../X:/FormsAuthentication.png" alt="">
+<img src="images/FormsAuthentication.png" alt="">
 </p>
 <h2>Authorization for Web Applications</h2>
 <p align="justify">
@@ -78,7 +78,7 @@ Add to the file an <em>authorization</em> section that contains <em>allow</em> a
 <p>
 In the following example, Kim is permitted to access the current directory, but John and anonymous users are denied access:
 </p>
-<img src="UrlAuthorization.png" alt="">
+<img src="images/UrlAuthorization.png" alt="">
 <strong>Site Membership systems using the Membership Class</strong>
 <p>
 Many websites implement a membership system. ASP.NET 2.0 includes a set of classes that enable you to build such a system, using a database or other location for storing member details.
@@ -119,13 +119,13 @@ You can use roles to reduce the administrative overhead of managing permissions 
 <p>
 If you are using URL authorization mode, you configure access to a directory by using the Web.config file in each directory. You can add roles to the <em>authorization</em> section. The following example shows how to grant access to members of the Admin and PowerUsers roles but deny access to members of the Customers role and anonymous users:
 </p>
-<img src="rolesAuthorization.png" alt="">
+<img src="images/rolesAuthorization.png" alt="">
 <strong>Role Management Configuration</strong>
 <p>
 You must configure role management in the Web.config file in the root folder of the Web
 application. The following example shows how to enable role management and specifies that a cookie will be downloaded to the client to store role membership details:
 </p>
-<img src="roleManager.png" alt="">
+<img src="images/roleManager.png" alt="">
 <strong>Creating and Populating Roles</strong>
 <p>
 However, you can also create and populate roles programmatically by using the Roles class. The following example creates a roles called Subscribers and adds two users to it:
