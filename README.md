@@ -50,8 +50,8 @@ By default, Forms authentication creates a cookie when the user has logged on, a
 </p>
 <p>
 You can configure Forms authentication by using the Web.config file. The following example specifies that users should be directed to a logon page called logon.aspx, and it has the details of two users. The password has been irreversibly hashed:
-<img src="images/FormsAuthentication.png" alt="">
 </p>
+<img src="images/FormsAuthentication.png" alt="">
 <h2>Authorization for Web Applications</h2>
 <p align="justify">
 After a user has been authenticated and has gained access to your Web site, the application must determine the pages and resources that the user has access to. This process is known as authorization.
